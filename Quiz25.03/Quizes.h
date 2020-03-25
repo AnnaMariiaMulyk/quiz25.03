@@ -11,9 +11,8 @@ struct quiz
 {
 	string name;
 	quetions* quetion;
-	string* marks;
-	
 };
 int menu(int choiseMenu);
 void addQuiz();
 void playQuize();
+void myTotalScores();
